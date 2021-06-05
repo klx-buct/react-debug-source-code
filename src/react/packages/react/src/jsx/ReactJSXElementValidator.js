@@ -303,7 +303,8 @@ export function jsxWithValidation(
   source,
   self,
 ) {
-  debugger;
+  // 使用debugger打断点调试, yarn start之后打开控制台, 会在此处停住
+  // debugger
   if (__DEV__) {
     const validType = isValidElementType(type);
 
